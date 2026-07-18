@@ -30,22 +30,22 @@ var commitTypeMap = map[string]struct {
 	section string
 	icon    string
 }{
-	"feat":     {"Added", "✨"},
-	"feature":  {"Added", "✨"},
-	"fix":      {"Fixed", "🐛"},
-	"bugfix":   {"Fixed", "🐛"},
-	"perf":     {"Performance", "⚡"},
+	"feat":        {"Added", "✨"},
+	"feature":     {"Added", "✨"},
+	"fix":         {"Fixed", "🐛"},
+	"bugfix":      {"Fixed", "🐛"},
+	"perf":        {"Performance", "⚡"},
 	"performance": {"Performance", "⚡"},
-	"refactor": {"Refactored", "♻️"},
-	"chore":    {"Chores", "🔧"},
-	"docs":     {"Documentation", "📝"},
-	"style":    {"Style", "🎨"},
-	"test":     {"Tests", "🧪"},
-	"ci":       {"CI/CD", "🤖"},
-	"build":    {"Build", "📦"},
-	"revert":   {"Reverted", "⏪"},
-	"breaking": {"Breaking Changes", "💥"},
-	"deprecate": {"Deprecated", "⚠️"},
+	"refactor":    {"Refactored", "♻️"},
+	"chore":       {"Chores", "🔧"},
+	"docs":        {"Documentation", "📝"},
+	"style":       {"Style", "🎨"},
+	"test":        {"Tests", "🧪"},
+	"ci":          {"CI/CD", "🤖"},
+	"build":       {"Build", "📦"},
+	"revert":      {"Reverted", "⏪"},
+	"breaking":    {"Breaking Changes", "💥"},
+	"deprecate":   {"Deprecated", "⚠️"},
 }
 
 // parseCommitType extracts the conventional commit type from a message

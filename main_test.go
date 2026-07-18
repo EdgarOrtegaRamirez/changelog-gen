@@ -200,10 +200,10 @@ func TestSectionOrder(t *testing.T) {
 		"Tests":            7,
 		"CI/CD":            8,
 		"Build":            9,
-		"Chores":          10,
-		"Reverted":        11,
-		"Deprecated":      12,
-		"Other":           13,
+		"Chores":           10,
+		"Reverted":         11,
+		"Deprecated":       12,
+		"Other":            13,
 	}
 
 	for _, section := range expectedSections {
